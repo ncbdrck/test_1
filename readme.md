@@ -12,14 +12,12 @@ curl --upload-file ./td3_ros_reacher_doc13_oct23_models.zip https://transfer.sh/
 cd ~/rl_ws/src/multiros
 git pull
 
-cd ~/rl_ws/src
-git clone https://github.com/ncbdrck/ros_rl.git
-git clone https://github.com/ncbdrck/sb3_ros_support.git
-
 cd ~/rl_ws/src/reactorx200
 git clone https://github.com/ncbdrck/reactorx200_ros_reacher
 
 cd ~/rl_ws/src/
+git clone https://github.com/ncbdrck/ros_rl.git
+git clone https://github.com/ncbdrck/sb3_ros_support.git
 git clone https://github.com/ncbdrck/hrl-kdl.git
 
 cd ~/rl_ws/src/hrl-kdl/pykdl_utils
