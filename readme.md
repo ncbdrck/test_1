@@ -36,5 +36,5 @@ rm -rf devil/ build/
 rosdep install --from-paths src --ignore-src -r -y
 catkin_make
 source devel/setup.bash
-
+rospack profile
 ```
