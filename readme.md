@@ -1,4 +1,8 @@
 # My copy space
+
+```
+tensorboard serve --logdir_spec=TD3_goal:./
+```
 ```
 curl --upload-file ./td3_ros_reacher_doc13_oct23_models.zip https://transfer.sh/td3_ros_reacher_doc13_oct23_models.zip
 
