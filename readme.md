@@ -34,6 +34,7 @@ sudo apt-get install ros-noetic-urdf-parser-plugin
 sudo apt-get install ros-noetic-urdfdom-py
 
 cd ~/rl_ws/
+rm -rf devil/ build/
 rosdep install --from-paths src --ignore-src -r -y
 catkin_make
 source devel/setup.bash
