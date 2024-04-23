@@ -1,6 +1,9 @@
 # My copy space
 
 ```
+
+tensorboard --logdir="C:\Proj\TorchTut\DeepRL\lora_rl\runs"
+
 tensorboard serve --logdir_spec=TD3_goal:./
 
 tensorboard serve --logdir_spec=doc_10:./TD3_model_real_time_sep19_doc10_seed_10,doc_10_run2:./TD3_model_real_time_sep19_doc10_seed_10_run2,doc_12:./TD3_model_real_time_sep19_doc12_seed_10,doc_13:./TD3_model_real_time_sep19_docker13_seed_10,dock_13_run2:./TD3_model_real_time_sep19_docker13_seed_10_run2,doc_1:./TD3_model_real_time_sep23_docker1_seed_10,doc_01_run2:./TD3_model_real_time_sep23_docker1_seed_10_run1,doc_03_50:./TD3_model_real_time_sep19_doc3_seed_50,dock_03_50_run2:./TD3_model_real_time_sep19_doc3_seed_50_run1,doc12_50:./TD3_model_real_time_sep19_doc12_seed_50,doc12_50_run2:./TD3_model_real_time_sep19_doc12_seed_50_run1 
